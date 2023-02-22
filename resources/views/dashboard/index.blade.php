@@ -29,7 +29,7 @@
                         <a href="{{ route('dashboard.index') }}" class="btn btn-sm btn-info">Dashboard <span class="badge bg-light text-dark ms-1">{{$count}}</span></a>
                         @endif
                     </div>
-                    <div class="card-body">
+                    <div class="card-body overflow-scroll">
                         @include('validate')
                         <table id="dashboard" class="table table-striped border">
                             <thead>

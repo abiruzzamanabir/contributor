@@ -15,7 +15,7 @@
 <body>
     <div class="container">
         <div class="row justify-content-center align-items-center">
-            <div class="col-md-6 py-3 my-3">
+            <div class="col-lg-6 col-md-10 py-3 my-3">
                 <div class="card shadow">
                     <div class="card-header text-center">
                         <a href="{{ route('form.index') }}"><img width="100px" src="{{ asset('storage/assets/img/logo.png') }}" alt=""></a>
